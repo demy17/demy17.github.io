@@ -1,4 +1,5 @@
 /*  ============= WEB BROWSER RESETS ============ */
+
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
@@ -9,8 +10,21 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
+/* ====== PADDING AROUND CONTENT ======  */
+
+/* Desktops/Laptops */
+@media (min-width: 768px) { body { padding: 4% 20% } }
+
+/* Mobiles */
+@media (max-width: 767px) { body { padding: 12% 8% } }
+
 h1 {
     font-size: 84px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: -2px;
+    margin-bottom: 32px;
+    
 }
 
 h2 {
@@ -25,4 +39,7 @@ h3 {
 
 p {
     font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
