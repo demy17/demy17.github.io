@@ -10,17 +10,12 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
-section { padding: 4% 20% }
-h2 {
-    font-size: 56px;
-    margin-bottom: 4px;
-}
-
-h3 {
-    font-size: 32px;
-    margin-bottom: 4px;
-}
-
-p {
-    font-size: 20px;
-}
+/* Desktops */
+@media (min-width: 768px) {
+    section { padding: 4% 20% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    section { padding: 5% 5% }
+ }
