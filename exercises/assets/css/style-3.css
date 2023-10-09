@@ -1,4 +1,6 @@
 /*  ============= WEB BROWSER RESETS ============ */
+body { background-color: lightblue; }
+h2 { color:blue }
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
@@ -19,3 +21,4 @@ input, button, textarea, select { font: inherit }
  @media (max-width: 767px) {
     section { padding: 5% 5% }
  }
+ a { color: blue; }
