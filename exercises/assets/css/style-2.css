@@ -1,27 +1,96 @@
 /*  ============= WEB BROWSER RESETS ============ */
-body { background-color: purple; }
-h1 { color:white }
-h2 { color:white }
-p { color: white }
-* { margin: 0; padding: 0; border: none }
-*, *::before, *::after { box-sizing: border-box }
-html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
-scroll-behavior: smooth; scroll-padding-top: 20px }
-body { line-height: 1.5; min-height: 100vh }
-
-@media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
-@media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
-img { width: 100%; height: auto; display: block }
-input, button, textarea, select { font: inherit }
-
-/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
-/* Desktops */
-@media (min-width: 768px) {
-    body { padding: 4% 20% }
- }
- 
- /* Mobiles */
- @media (max-width: 767px) {
-    body { padding: 8% 5% }
- }
- a { color: white; }
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+  }
+  body {
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  @media (max-width: 767px) {
+    body {
+      text-rendering: optimizeSpeed;
+    }
+  }
+  @media (min-width: 768px) {
+    body {
+      text-rendering: optimizeLegibility;
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  body {
+    background-color: purple;
+  }
+  /* === PADDING AROUND WEB PAGE BODY CONTENT ====  */
+  /* Desktops */
+  @media (min-width: 768px) {
+    body {
+      padding: 4% 20%;
+    }
+  }
+  
+  /* Mobiles */
+  @media (max-width: 767px) {
+    body {
+      padding: 8% 5%;
+    }
+  }
+  
+  /* ====== STYLESHEET ======  */
+  
+  h1 {
+    font-size: 84px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: -2px;
+    margin-bottom: 32px;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 4px;
+    color: white;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  
+  p {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  a {
+    color: white;
+  }
+  
